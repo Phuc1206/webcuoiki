@@ -86,20 +86,12 @@
        				</div>
        				<button type="submit" class="btn">Register</button>
        				<div class="login-register">
-       					<p>Already have an account?<a href="#" class="register-link">Login</a>
+       					<p>Already have an account?<a href="#" class="login-link">Login</a>
        				</div>
        			</form>
        		</div>
        	</div>
-        <script >const wrapper =document.querySelector('.wrapper')
-        		const loginLink =document.querySelector('.login-link')
-        		const registerLink =document.querySelector('.register-link')
-        registerLink.ađaddEventListener('click',()=>{
-        	wrapper.classList.add('active');
-        });
-        loginLink.addEventListener('click',()=>{
-        	wrapper.classList.remove('active');
-        });
+        <script src="http://localhost:8080/webcuoiky/assets/login.js">
         </script>
     </body>
 
