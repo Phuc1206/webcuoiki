@@ -12,6 +12,7 @@
         <!-- link box icon -->
         <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+         
     </head>
     <body>
         <!-- Navbar -->
@@ -36,8 +37,104 @@
         </div>
         </header>
 <body>
-	
+	<div class="search-bar">
+    	<input type="text" >
+    	<button type="submit"><i class='bx bx-search'></i></button>
+	</div>
+	<div class="sidebar">
+    	<h2>Danh mục hàng</h2>
+    	<ul>
+        	<li><a href="#" >Bàn ghế</a></li>
+        	<li>Kệ tủ</li>
+        	<li>Các loại đèn</li>
+    	</ul>
+	</div>
+	<section class="shop" id="shop">
+		<div class="containerbody">
+			<div class="box" onclick="openModal(this)">
+				<img src="img/product-1.jpg">
+				<h4>Product 1</h4>
+				<h5>$15.00</h5>
+			</div>
+			<div class="box">
+				<img src="img/product-2.jpg">
+				<h4>Product 2</h4>
+				<h5>$15.00</h5>
+			</div>
+			<div class="box">
+				<img src="img/product-3.jpg">
+				<h4>Product 3</h4>
+				<h5>$15.00</h5>
+			</div>
+			<div class="box">
+				<img src="img/product-4.jpg">
+				<h4>Product 4</h4>
+				<h5>$15.00</h5>
+			</div>
+			<div class="box">
+				<img src="img/product-5.jpg">
+				<h4>Product 5</h4>
+				<h5>$15.00</h5>
+			</div>
+			<div class="box">
+				<img src="img/product-6.jpg">
+				<h4>Product 6</h4>
+				<h5>$15.00</h5>
+			</div>
+			<div class="box">
+				<img src="img/product-7.jpg">
+				<h4>Product 7</h4>
+				<h5>$15.00</h5>
+			</div>
+			<div class="box">
+				<img src="img/product-8.jpg">
+				<h4>Product 8</h4>
+				<h5>$15.00</h5>
+			</div>
+		</div>
+	</section>
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="product-details">
+            <img id="modalImage">
+            <div class="product-info">
+                <h4 id="modalTitle"></h4>
+                <h5 id="modalPrice"></h5>
+                <div class="quantity">
+                    <button>-</button>
+                    <input type="number" value="1">
+                    <button>+</button>
+                </div>
+                <button class="cart-button"><i class='bx bx-cart'></i> Giỏ hàng</button>
+                <button class="buy-button">Mua ngay</button>
+            </div>
+        </div>
+        <p id="modalDescription" class="product-description">mô tả sản phẩm</p>
+        <p id="modalDescription1" class="product-description">mô tả sản phẩm</p>
+    </div>
+</div>
 </body>
+<script>
+function openModal(product) {
+    var modal = document.getElementById("myModal");
+    var image = product.getElementsByTagName("img")[0].src;
+    var title = product.getElementsByTagName("h4")[0].innerText;
+    var price = product.getElementsByTagName("h5")[0].innerText;
+
+    document.getElementById("modalImage").src = image;
+    document.getElementById("modalTitle").innerText = title;
+    document.getElementById("modalPrice").innerText = price;
+
+    modal.style.display = "block";
+}
+
+// Hàm đóng modal
+function closeModal() {
+    var modal = document.getElementById("myModal");
+    modal.style.display = "none";
+}
+</script>
 <footer>
             <div class="footer-content">
                 <h3>Elite Interiors</h3>

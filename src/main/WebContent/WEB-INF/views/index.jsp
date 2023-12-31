@@ -87,7 +87,7 @@
                 </div>
                 <div class="content">
                     <h3>Liên hệ chúng tôi</h3>
-                    <ul>
+                    <ul class="grid">
                     <li><a href="#">Ngọc Mơ</a></li>
                     <li><a href="#">Xuân Phúc</a></li>
                     <li><a href="#">Tú Uyên</a></li>

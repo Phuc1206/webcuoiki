@@ -38,10 +38,9 @@
         <!-- Login -->
         
        	<div class=wrapper>
-       
        		<div class="form-box login">
        			<h2>Login</h2>
-       			<form action="#">
+       			<form action="checklogin.htm" method="post">
        				<div class="input-box">
        					<span class="icon bx bxs-envelope"></span>
        					<input type="email" required>
@@ -53,7 +52,7 @@
        					<label>Password</label>
        				</div>
        				<div class="remember-forgot">
-       					<label><input type="checkbox">Remember me</label>
+       					<label><input type="checkbox" name="remember" value="1">Remember me</label>
        					<a href="#">Forgot Password?</a>
        				</div>
        				<button type="submit" class="btn">Login</button>
