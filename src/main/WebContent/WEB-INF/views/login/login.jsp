@@ -3,28 +3,30 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+    
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width ,initial-scale=1.0">
         <title>Nhóm lập trình web</title>
         <!-- link css -->
-        <link rel="stylesheet" href="http://localhost:8080/webcuoiky/assets/login.css">
+        <link rel="stylesheet" href="http://localhost:8080/webcuoiky/assets/login.css"> 
         <!-- link box icon -->
         <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
     </head>
     <body>
         <!-- Navbar -->
-        <header>
-            <a href="index.htm" class="logo">Logo brand <span>hh.</span></a>
+        <header style="background: #5e390f">
+            <a href="index.htm" class="logo">Elite Interiors</a>
             <div class="bx bx-menu" id="menu-icon"></div>
 
             <ul class="navbar">
 
-                <li><a href="index.htm" ><img src="img/icons/home.svg" height="18" width="30">Trang chủ</a></li>
-                <li><a href="shopping.htm" ><img src="img/icons/layers.svg"height="18" width="30">Cửa hàng</a></li>
-                <li><a href="help.htm" ><img src="img/icons/help-circle.svg" height="18" width="30"> Trợ giúp</a></li>
-                <li><a href="info.htm"><img src="img/icons/info.svg" height="18" width="30"> Tham khảo</a></li>
+                <li><a href="index.htm" ><i class='bx bx-home'></i> Trang chủ</a></li>
+                <li><a href="shopping.htm" ><i class='bx bx-layer' ></i> Cửa hàng</a></li>
+                <li><a href="help.htm" ><i class='bx bx-help-circle' ></i> Trợ giúp</a></li>
+                <li><a href="info.htm"><i class='bx bx-info-circle'></i> Tham khảo</a></li>
             </ul>
             <div class="btn-header">
             <a class='bx bx-user' id="btn-user" href="login.htm"></a>
@@ -32,6 +34,7 @@
             <a class="bx bx-cart bx-tada bx-rotate-90" id="btn-cart" href="cart.htm">
                 <span class="btn-badge">0</span>
             </a>
+            <a class="bx bx-log-out" id="btn-logout" href="#"></a>
             
         </div>
         </header>

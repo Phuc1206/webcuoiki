@@ -30,4 +30,9 @@ public String login(){
 public String cart(){
 	return "cart/cart";
 }
+@RequestMapping("pay")
+public String pay() {
+	return "pay/pay";
+}
+
 }

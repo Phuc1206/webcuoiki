@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width ,initial-scale=1.0">
         <title>Cart</title>
         <!-- link css -->
-        <link rel="stylesheet" href="http://localhost:8080/webcuoiky/assets/cart.css">
+        <link rel="stylesheet" href="http://localhost:8080/webcuoiky/assets/order.css">
         <!-- link box icon -->
         <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">

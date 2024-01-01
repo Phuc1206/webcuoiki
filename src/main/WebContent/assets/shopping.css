@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -115,8 +116,6 @@ footer{
     left: 0;
     right: 0;
     position: absolute;
-    
-    
 }
 .footer-content{
     display: flex;
@@ -350,3 +349,45 @@ section{
     text-decoration: none;
     cursor: pointer;
 }
+*{
+				font-family:  'Mulish', sans-serif;
+			}
+			.containerbody{
+				grid-template-columns: repeat(4, 1fr);
+			}
+			#btn-user:hover{
+				color: #EFD4A9;
+			}
+        	#btn-user{
+				color: white;
+			}
+			#btn-cart:hover{
+				color: #EFD4A9;
+			}
+			#btn-cart{
+				color:white;
+			}
+			#btn-logout:hover{
+				color: #EFD4A9;
+			}
+			#btn-logout{
+				color:white;
+			}
+			.navbar a{
+				color: #fff;
+				font-size: 15px;
+			}
+			.navbar i{
+				font-size:20px;
+			}
+			.logo{
+				color: #fff;
+				font-family: 'MonteCarlo', cursive;
+				font-size: 25px;
+			}
+			.sidebar a:hover{
+				color:#EFD4A9 !important;
+			}
+			footer{
+				background-color: #7D6A55;
+			}

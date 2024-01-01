@@ -105,33 +105,68 @@ header{
     display: flex;
     text-align: center;
 }
-footer{
-    background: #706966CF;
-    height: auto;
-    width: 100vw;
-    padding: 40px;
-    color: #fff;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: absolute;
+body{padding-top:20px;}
+
+
+@media only screen and (min-width: 768px){
+body:not(.layout-admin) .section, body:not(.layout-admin) section {
+    padding: 100px 0;
 }
-.footer-content{
-    display: flex;
+}
+
+.d-middle {
     align-items: center;
+    display: flex;
     justify-content: center;
-    flex-direction: column;
-    text-align: center;
 }
-.footer-content h3{
-    font-size: 1.8rem;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 3rem;
+
+.opacity-8,.overlay-opacity-8:after {
+    opacity: .8
 }
-.footer-content p{
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
+
+opacity-8, .overlay-opacity-8:after {
+    opacity: .8;
+}
+.overlay-dark-hover:hover:after, .overlay-dark:after {
+    background: #FFCCB3;
+}
+.overlay-dark-hover:after, .overlay-dark:after, .overlay-light-hover:after, .overlay-light:after {
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+#img-body{
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+
+.bg-theme-color-light {
+    background-color: rgb(128, 64, 0)!important;
+}
+.bg-cover {
+    background-position: 50%!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
+.overlay-dark, .overlay-dark-hover, .overlay-light, .overlay-light-hover {
+    position: relative;
+}
+#overlay-default, .overlay-dark, .overlay-dark-hover:after, .overlay-default, .overlay-light, .overlay-light-hover:after {
+    transition: all .2s ease;
+}
+.section, section {
+    position: relative;
+    word-break: break-word;
+}
+
+.overlay-dark>*, .overlay-light>* {
+    position: relative;
+    z-index: 1;
 }
