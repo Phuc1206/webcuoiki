@@ -9,7 +9,6 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Mulish', sans-serif;
-    font-family: 'Libre Franklin', sans-serif
 }
 :root{
     --text-color: #fff;
@@ -60,7 +59,6 @@ header{
 .home{
     width: 100%;
     min-height: 100vh;
-    background-image: url(http://localhost:8080/webcuoiky/img/background.jpg);
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -125,33 +123,7 @@ header{
 .btn-header a:hover{
     color: var(--main-color);
 }
-footer{
-    background: #706966CF;
-    height: auto;
-    width: 100vw;
-    padding: 40px;
-    color: #fff;
-    bottom: 0;
-}
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-.footer-content h3{
-    font-size: 1.8rem;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 3rem;
-}
-.footer-content p{
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
-}
+
 .mySlides{
     display: none;
 }
@@ -167,24 +139,16 @@ footer{
     justify-content: center;
 
 }
-.footer{
-    width: 50%;
-}
-.content h3{
-    font-size: 28px;
-    margin-bottom: 15px;
-    text-align: left;
-}
-.content p{
+footer{
+    background: #706966CF;
+    height: auto;
     width: 100%;
-    margin: auto;
-    padding-top: 20px;
-}
-.content li{
-    text-align: left;
-    position: relative;
-    display: flex;
-    text-align: center;
+    padding-bottom: 10px;
+    color: #fff;
+    left: 0;
+    top: 100%;
+    right: 0;
+    position: absolute;
 }
 
 *{

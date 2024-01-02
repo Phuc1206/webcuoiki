@@ -16,7 +16,7 @@ public String shopping(){
 }
 @RequestMapping("help")
 public String help() {
-	return "help/help";
+	return "help";
 }
 @RequestMapping("info")
 public String info() {
@@ -34,5 +34,8 @@ public String cart(){
 public String pay() {
 	return "pay/pay";
 }
-
+@RequestMapping("order")
+public String order() {
+	return "order/order";
+}
 }

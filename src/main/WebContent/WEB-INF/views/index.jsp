@@ -12,7 +12,7 @@
         <!-- link box icon -->
         <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-
+		<link rel="stylesheet" href="https://tailwindflex.com/public/build/assets/app.ce1e0228.css" data-navigate-track="reload">
     </head>
     <body>
         <!-- Navbar -->
@@ -40,63 +40,162 @@
         <!-- Home -->
         
         <section class="home" >
-            <div class="home-text mySlides">
+            <div class="home-text mySlides" data-image="http://localhost:8080/webcuoiky/img/background.jpg">
                 <h1><span>Elite Interiors</span> </h1>
                 <h2> Simplicity Redefined, Elegance Unveiled: <span>Elite Interiors.</span></h2>
-                <p>Elite Interiors là một cửa hàng nội thất đẳng cấp thuộc công ty TNHH sản xuất nội thất ICA. Với slogan "Simplicity Redefined, Elegance Unveiled: Elite Interiors" 
+                <p style="text-align:justify">Elite Interiors là một cửa hàng nội thất đẳng cấp thuộc công ty TNHH sản xuất nội thất ICA. Với slogan "Simplicity Redefined, Elegance Unveiled: Elite Interiors" 
                     Chúng tôi cung cấp một loạt các sản phẩm nội thất đa dạng và độc đáo. Từ bàn ghế, giường tủ, kệ sách cho đến đèn trang trí và các phụ kiện nội thất khác, tất cả đều được thiết kế và chế tạo với sự tinh tế và chi tiết tỉ mỉ. Chúng tôi luôn sử dụng các chất liệu cao cấp và công nghệ tiên tiến để đảm bảo chất lượng và độ bền của các sản phẩm của chúng tôi.
                     Chúng tôi tạo ra những thiết kế đẹp mắt với các đường nét tinh tế, màu sắc tươi sáng và sự cân đối về tỷ lệ. Bất kể bạn đang tìm kiếm một không gian sống thanh lịch và trang nhã hoặc một không gian hiện đại và phóng khoáng, chúng tôi sẽ có những sản phẩm phù hợp với sở thích và phong cách của bạn.
                     Hãy đến Elite Interiors để khám phá sự tinh tế và sự đột phá trong thiết kế nội thất. Chúng tôi cam kết mang đến cho bạn không gian sống đẳng cấp, nơi mà sự tinh tế và hiện đại được khám phá mới lạ.</p>
-                <a href="dichvu" class="btn">Shop Now</a>
             </div>
-            <div >
-                <img class="mySlides img" src="img/background2.jpg"  >
-            </div>
-            <div >
-                <img class="mySlides img" src="img/background1.jpg"  >
-            </div>
-            
+            <div class="home-text mySlides" data-image="https://images.pexels.com/photos/10304945/pexels-photo-10304945.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+						<h1>
+				<span>Elite Interiors</span>
+			</h1>
+			<h2>
+				Simplicity Redefined, Elegance Unveiled: <span>Elite
+					Interiors.</span>
+			</h2>
+			<p style="text-align:justify">Elite Interiors là một cửa hàng nội thất đẳng cấp thuộc công
+				ty TNHH sản xuất nội thất ICA. Với slogan "Simplicity Redefined,
+				Elegance Unveiled: Elite Interiors" Chúng tôi cung cấp một loạt các
+				sản phẩm nội thất đa dạng và độc đáo. Từ bàn ghế, giường tủ, kệ sách
+				cho đến đèn trang trí và các phụ kiện nội thất khác, tất cả đều được
+				thiết kế và chế tạo với sự tinh tế và chi tiết tỉ mỉ. Chúng tôi luôn
+				sử dụng các chất liệu cao cấp và công nghệ tiên tiến để đảm bảo chất
+				lượng và độ bền của các sản phẩm của chúng tôi. Chúng tôi tạo ra
+				những thiết kế đẹp mắt với các đường nét tinh tế, màu sắc tươi sáng
+				và sự cân đối về tỷ lệ. Bất kể bạn đang tìm kiếm một không gian sống
+				thanh lịch và trang nhã hoặc một không gian hiện đại và phóng
+				khoáng, chúng tôi sẽ có những sản phẩm phù hợp với sở thích và phong
+				cách của bạn. Hãy đến Elite Interiors để khám phá sự tinh tế và sự
+				đột phá trong thiết kế nội thất. Chúng tôi cam kết mang đến cho bạn
+				không gian sống đẳng cấp, nơi mà sự tinh tế và hiện đại được khám
+				phá mới lạ.</p>
+		</div>
+            <div class="home-text mySlides" data-image="https://images.pexels.com/photos/945669/pexels-photo-945669.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+						<h1>
+				<span>Elite Interiors</span>
+			</h1>
+			<h2>
+				Simplicity Redefined, Elegance Unveiled: <span>Elite
+					Interiors.</span>
+			</h2>
+			<p style="text-align:justify">Elite Interiors là một cửa hàng nội thất đẳng cấp thuộc công
+				ty TNHH sản xuất nội thất ICA. Với slogan "Simplicity Redefined,
+				Elegance Unveiled: Elite Interiors" Chúng tôi cung cấp một loạt các
+				sản phẩm nội thất đa dạng và độc đáo. Từ bàn ghế, giường tủ, kệ sách
+				cho đến đèn trang trí và các phụ kiện nội thất khác, tất cả đều được
+				thiết kế và chế tạo với sự tinh tế và chi tiết tỉ mỉ. Chúng tôi luôn
+				sử dụng các chất liệu cao cấp và công nghệ tiên tiến để đảm bảo chất
+				lượng và độ bền của các sản phẩm của chúng tôi. Chúng tôi tạo ra
+				những thiết kế đẹp mắt với các đường nét tinh tế, màu sắc tươi sáng
+				và sự cân đối về tỷ lệ. Bất kể bạn đang tìm kiếm một không gian sống
+				thanh lịch và trang nhã hoặc một không gian hiện đại và phóng
+				khoáng, chúng tôi sẽ có những sản phẩm phù hợp với sở thích và phong
+				cách của bạn. Hãy đến Elite Interiors để khám phá sự tinh tế và sự
+				đột phá trong thiết kế nội thất. Chúng tôi cam kết mang đến cho bạn
+				không gian sống đẳng cấp, nơi mà sự tinh tế và hiện đại được khám
+				phá mới lạ.</p>
+		</div>
         </section>
         
         <script>
-            var slideIndex = 0;
-            carousel();
-            
-            function carousel() {
-              var i;
-              var x = document.getElementsByClassName("mySlides");
-              for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none"; 
-              }
-              slideIndex++;
-              if (slideIndex > x.length) {slideIndex = 1} 
-              x[slideIndex-1].style.display = "block"; 
-              setTimeout(carousel, 3000); 
-            }
+        var slideIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) {
+				slideIndex = 1
+			}
+
+			var currentSlide = slides[slideIndex - 1];
+			currentSlide.style.display = "block";
+			document.querySelector('.home').style.backgroundImage = 'url('
+					+ currentSlide.getAttribute('data-image') + ')';
+
+			var link = currentSlide.getAttribute('data-link');
+			if (link) {
+				document.querySelector('.btn').setAttribute('href', link);
+			}
+
+			setTimeout(carousel, 3000);
+		}
             </script>
     </body>
     <footer>
-            <div class="footer-content">
-                <h3>Elite Interiors</h3>
-                <p>CÔNG TY TNHH SẢN XUẤT NỘI THẤT ICA</p>
-            </div>
-            <div class="container">
-                <div class="content">
-            
-                    <p class='bx bx-envelope'> Email: elite@interiors.vn</p><br>
-                    <p class='bx bx-edit-alt'> 0232.999.999</p><br>
-                    <p class='bx bx-globe'> 97 Man Thiện, Hiệp Phú, TP Thủ Đức, TP HCM</p>
-                </div>
-                <div class="content">
-                    <h3>Liên hệ chúng tôi</h3>
-                    <ul class="grid">
-                    <li><a href="#">Ngọc Mơ</a></li>
-                    <li><a href="#">Xuân Phúc</a></li>
-                    <li><a href="#">Tú Uyên</a></li>
-                    <li><a href="#">Thảnh Trung</a></li>
-                </ul>
+    <div class="bg-yellow-700">
+    <div class="max-w-screen-l py-10 px-4 sm:px-6 text-gray-800 sm:flex justify-between mx-auto">
+        <div class="p-10 sm:w-4/12">
+            <h3 class="font-bold text-5xl text-white mb-4" style="font-family: 'MonteCarlo', cursive;">Elite Interiors</h3>
+            <p class="text-white text-sm mb-5">CÔNG TY TNHH SẢN XUẤT NỘI THẤT ICA</p>
+        </div>
+        <div class=" sm:w-2/6 flex flex-col  content-center">
+            <div class="text-sm uppercase text-white font-bold mb-5">Thông tin liên hệ</div>
+            <div class="flex mb-3">
+                
+                <div class="pl-3 w-9/12">
+                    <div class="font-bold text-white text-sm">Email:</div>
+                    <p class="text-white text-sm">
+                        elite@interiors.vn
+                    </p>
                 </div>
             </div>
-    </footer>
+            <div class="flex mb-3">
+                
+                <div class="pl-3 w-9/12">
+                    <div class="font-bold text-white text-sm">Số điện thoại:</div>
+                    <p class="text-white text-sm">
+                        0232.999.999
+                    </p>
+                </div>
+            </div>
+            <div class="flex mb-3">
+                
+                <div class="pl-3 w-9/12">
+                    <div class="font-bold text-white text-sm">Địa chỉ:</div>
+                    <p class="text-white text-sm">
+                        97 Man Thiện, Hiệp Phú, TP Thủ Đức, TP HCM
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class=" sm:w-3/12">
+            <div class="text-sm uppercase text-white font-bold mb-5">Thông tin nhóm</div>
+            <ul class="grid grid-cols-4 gap-5">
+                <li>
+                    <img src="img/product-4.jpg" class="w-28">
+                </li>
+                <li>
+                    <img src="img/product-3.jpg" class="w-28">
+                </li>
+                <li>
+                    <img src="img/product-2.jpg" class="w-28">
+                </li>
+                <li>
+                    <img src="img/product-1.jpg" class="w-28">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="bg-indigo-700 py-1 text-white">
+      <div class="container mx-auto px-4">
+        <div class="-mx-4 flex flex-wrap justify-between">
+          <div class="px-4 w-full text-center sm:w-auto sm:text-left">
+            Lập trình web 
+            <script>new Date().getFullYear() > 2023 && document.write( new Date().getFullYear())</script>
+            PTITHCM. Giảng viên: Nguyễn Trung Hiếu
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
     
 </html>

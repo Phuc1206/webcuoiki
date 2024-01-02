@@ -91,55 +91,19 @@ header{
     justify-content: center;
 
 }
-.footer{
-    width: 50%;
-}
-.content h3{
-    font-size: 28px;
-    margin-bottom: 15px;
-    text-align: left;
-}
-.content p{
-    width: 100%;
-    margin: auto;
-    padding-top: 20px;
-}
-.content li{
-    text-align: left;
-    position: relative;
-    display: flex;
-    text-align: center;
-}
+
 footer{
     background: #706966CF;
     height: auto;
     width: 100%;
-    padding: 40px;
+    padding: 20px;
     color: #fff;
     left: 0;
     top: 100%;
     right: 0;
     position: absolute;
 }
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-.footer-content h3{
-    font-size: 1.8rem;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 3rem;
-}
-.footer-content p{
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
-}
+
 body{
 	padding-top: 5%;
 	position: relative;

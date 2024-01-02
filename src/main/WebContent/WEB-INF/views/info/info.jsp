@@ -13,8 +13,11 @@
         <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        		<link rel="stylesheet" href="https://tailwindflex.com/public/build/assets/app.ce1e0228.css" data-navigate-track="reload">
+        
         <style type="text/css">
-    	body{padding-top:20px;}
+    	body{padding-top:20px;
+    	position: relative;}
 
 
 @media only screen and (min-width: 768px){
@@ -36,35 +39,6 @@ body:not(.layout-admin) .section, body:not(.layout-admin) section {
 opacity-8, .overlay-opacity-8:after {
     opacity: .8;
 }
-.overlay-dark-hover:hover:after, .overlay-dark:after {
-    background: #EEE0D9;
-}
-.overlay-dark-hover:after, .overlay-dark:after, .overlay-light-hover:after, .overlay-light:after {
-    bottom: 0;
-    content: "";
-    height: 100%;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100%;
-    z-index: 0;
-}
-
-.bg-theme-color-light {
-    background-color: rgba(87,79,236,.04)!important;
-}
-.bg-cover {
-    background-position: 50%!important;
-    background-repeat: no-repeat!important;
-    background-size: cover!important;
-}
-.overlay-dark, .overlay-dark-hover, .overlay-light, .overlay-light-hover {
-    position: relative;
-}
-#overlay-default, .overlay-dark, .overlay-dark-hover:after, .overlay-default, .overlay-light, .overlay-light-hover:after {
-    transition: all .2s ease;
-}
 .section, section {
     position: relative;
     word-break: break-word;
@@ -74,7 +48,7 @@ opacity-8, .overlay-opacity-8:after {
     position: relative;
     z-index: 1;
 }
-@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
 		   *{
 				font-family:  'Mulish', sans-serif;
 			}
@@ -116,8 +90,8 @@ opacity-8, .overlay-opacity-8:after {
     </style>
     </head>
           <!-- Navbar -->
-        <header style="background: #5e390f">
-            <a href="index.htm" class="logo">Elite Interiors</a>
+        <header style="background: #5e390f; line-height: normal;">
+            <a href="index.htm" class="logo" style="font-family: 'MonteCarlo', cursive !important;">Elite Interiors</a>
             <div class="bx bx-menu" id="menu-icon"></div>
 
             <ul class="navbar">
@@ -138,7 +112,7 @@ opacity-8, .overlay-opacity-8:after {
         </div>
         </header>
 <body>
-	<div class="section bg-theme-color-light overlay-dark overlay-opacity-8 bg-cover lazy" data-loaded="true" style="background-image: url(https://bootdey.com/img/Content/bg1.jpg);">
+	<div class="section" data-loaded="true" style="background-color: #EFD9A7 !important;">
     			
 				<div class="container"> 
 
@@ -155,10 +129,10 @@ opacity-8, .overlay-opacity-8:after {
 							</h1>
 							
 							<!-- slogan -->
-							<p class="h3 fw-normal mb-0" style="text-align:justify">
+							<p class="h3 fw-normal mb-0" style="text-align:justify ;color:#820707 !important">
 								Thiết kế và đường nét rõ ràng, bảng màu đơn sắc, “less is more” là những hình dung khi nhắc đến phong cách nội thất Tối Giản.
 							</p>
-							<p class="h3 fw-normal mb-0" style="text-align:justify">
+							<p class="h3 fw-normal mb-0" style="text-align:justify;color:#820707 !important">
 							Màu sắc được sử dụng cho phong cách Tối Giản là những màu đơn sắc, không sặc sỡ. Việc phối hợp màu sắc trong phong cách nội thất Tối Giản cũng được phân bổ. Cụ thể: 60% màu nền, 30% màu thứ cấp và 10% màu nhấn.
 							</p>
 
@@ -166,7 +140,7 @@ opacity-8, .overlay-opacity-8:after {
 
 						<div class="col-12 col-lg-6 text-align-end text-center-md text-center-xs aos-init aos-animate" data-aos="fade-in" data-aos-delay="50" data-aos-offset="0">
 
-							<div class="d-inline-block bg-white shadow-primary-xs rounded p-4 p-md-5 w-100 max-w-450 text-align-start">
+							<div class="d-inline-block bg-white shadow-primary-xs rounded p-4 p-md-5 w-100 max-w-450 text-align-start" style="background-color: #F0CD81 !important">
 								<img alt="" src="https://truongthang.vn/wp-content/uploads/2023/08/6-5.jpg" id="img-body">
 
 							</div>
@@ -183,7 +157,7 @@ opacity-8, .overlay-opacity-8:after {
 
 						<div class="col-12 col-lg-6 text-align-end text-center-md text-center-xs aos-init aos-animate" data-aos="fade-in" data-aos-delay="50" data-aos-offset="0">
 
-							<div class="d-inline-block bg-white shadow-primary-xs rounded p-4 p-md-5 w-100 max-w-450 text-align-start">
+							<div class="d-inline-block bg-white shadow-primary-xs rounded p-4 p-md-5 w-100 max-w-450 text-align-start" style="background-color: #F0CD81 !important">
 								<img alt="" src="https://truongthang.vn/wp-content/uploads/2023/08/2-1-5.jpg" id="img-body">
 
 							</div>
@@ -200,10 +174,10 @@ opacity-8, .overlay-opacity-8:after {
 							</h1>
 							
 							<!-- slogan -->
-							<p class="h3 fw-normal mb-0" style="text-align:justify">
+							<p class="h3 fw-normal mb-0" style="text-align:justify;color:#820707 !important">
 								Nội thất phong cách Hiện Đại được xây dựng với những đường thẳng và trang trí tối thiểu, lược bỏ những chi tiết hoa mỹ không cần thiết. Màu sắc được sử dụng là những màu đơn sắc và trung tính.
 							</p>
-							<p class="h3 fw-normal mb-0" style="text-align:justify">
+							<p class="h3 fw-normal mb-0" style="text-align:justify;color:#820707 !important">
 							Với tính chất linh hoạt, nội thất phong cách Hiện Đại thường kết hợp đa dạng chất liệu như gỗ tự nhiên, plastic, thép,… đặc biệt là vật liệu tiên tiến.
 							</p>
 
@@ -227,10 +201,10 @@ opacity-8, .overlay-opacity-8:after {
 							</h1>
 							
 							<!-- slogan -->
-							<p class="h3 fw-normal mb-0" style="text-align:justify">
+							<p class="h3 fw-normal mb-0" style="text-align:justify;color:#820707 !important">
 								Màu sắc của nội thất Tân Cổ Điển có xu hướng nhẹ nhàng, trầm lắng. Màu chủ đạo thường là trắng, kem và xám. Các màu nổi bật hơn như đỏ, vàng, đen thường được dùng làm điểm nhấn.
 							</p>
-							<p class="h3 fw-normal mb-0" style="text-align:justify">
+							<p class="h3 fw-normal mb-0" style="text-align:justify;color:#820707 !important">
 							Vật liệu ưa chuộng của phong cách này thường là gỗ tự nhiên, da và đá hoa cương. Sự thượng hạng từ chất liệu góp phần làm tôn lên sự đẳng cấp của không gian mà không cần phô trương.
 							</p>
 
@@ -238,7 +212,7 @@ opacity-8, .overlay-opacity-8:after {
 
 						<div class="col-12 col-lg-6 text-align-end text-center-md text-center-xs aos-init aos-animate" data-aos="fade-in" data-aos-delay="50" data-aos-offset="0">
 
-							<div class="d-inline-block bg-white shadow-primary-xs rounded p-4 p-md-5 w-100 max-w-450 text-align-start">
+							<div class="d-inline-block bg-white shadow-primary-xs rounded p-4 p-md-5 w-100 max-w-450 text-align-start" style="background-color: #F0CD81 !important">
 								<img alt="" src="https://truongthang.vn/wp-content/uploads/2023/08/10-1-1.jpg" id="img-body">
 
 							</div>
@@ -255,7 +229,7 @@ opacity-8, .overlay-opacity-8:after {
 
 						<div class="col-12 col-lg-6 text-align-end text-center-md text-center-xs aos-init aos-animate" data-aos="fade-in" data-aos-delay="50" data-aos-offset="0">
 
-							<div class="d-inline-block bg-white shadow-primary-xs rounded p-4 p-md-5 w-100 max-w-450 text-align-start">
+							<div class="d-inline-block bg-white shadow-primary-xs rounded p-4 p-md-5 w-100 max-w-450 text-align-start" style="background-color: #F0CD81 !important">
 								<img alt="" src="https://truongthang.vn/wp-content/uploads/2023/08/14.jpg" id="img-body">
 
 							</div>
@@ -272,10 +246,10 @@ opacity-8, .overlay-opacity-8:after {
 							</h1>
 							
 							<!-- slogan -->
-							<p class="h3 fw-normal mb-0" style="text-align:justify">
+							<p class="h3 fw-normal mb-0" style="text-align:justify;color:#820707 !important">
 								Phong cách thiết kế nội thất Boho bao gồm chủ nghĩa tối đa,khuyến khích thể hiện cá nhân thông qua việc lựa chọn và sắp xếp các đồ vật trang trí, vải dệt, tác phẩm nghệt thuật,…
 							</p>
-							<p class="h3 fw-normal mb-0" style="text-align:justify">
+							<p class="h3 fw-normal mb-0" style="text-align:justify;color:#820707 !important">
 							 Hoạ tiết thường thấy ở nội thất Boho là hoạ tiết thổ dân mang nét hoang sơ. Kết hợp cùng màu sắc sặc sỡ và những đường diềm tinh tế, không gian sống trở nên sống động
 							</p>
 
@@ -289,8 +263,75 @@ opacity-8, .overlay-opacity-8:after {
 </body>
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-<script type="text/javascript">
-	
-</script>
+<footer>
+    <div class="bg-yellow-700">
+    <div class="max-w-screen-l py-10 px-4 sm:px-6 text-gray-800 sm:flex justify-between mx-auto" style="padding-top: 1rem;
+    padding-bottom: 1rem;">
+        <div class="p-10 sm:w-4/12">
+            <h3 class="font-bold text-5xl text-white mb-4" style="font-family: 'MonteCarlo', cursive; margin-bottom: 1rem !important;">Elite Interiors</h3>
+            <p class="text-white text-sm mb-5">CÔNG TY TNHH SẢN XUẤT NỘI THẤT ICA</p>
+        </div>
+        <div class=" sm:w-2/6 flex flex-col  content-center">
+            <div class="text-sm uppercase text-white font-bold mb-5" style="margin-bottom: 1.25rem !important;">Thông tin liên hệ</div>
+            <div class="flex mb-3">
+                
+                <div class="pl-3 w-9/12">
+                    <div class="font-bold text-white text-sm">Email:</div>
+                    <p class="text-white text-sm">
+                        elite@interiors.vn
+                    </p>
+                </div>
+            </div>
+            <div class="flex mb-3">
+                
+                <div class="pl-3 w-9/12">
+                    <div class="font-bold text-white text-sm">Số điện thoại:</div>
+                    <p class="text-white text-sm">
+                        0232.999.999
+                    </p>
+                </div>
+            </div>
+            <div class="flex mb-3">
+                
+                <div class="pl-3 w-9/12">
+                    <div class="font-bold text-white text-sm">Địa chỉ:</div>
+                    <p class="text-white text-sm">
+                        97 Man Thiện, Hiệp Phú, TP Thủ Đức, TP HCM
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class=" sm:w-3/12">
+            <div class="text-sm uppercase text-white font-bold mb-5" style="margin-bottom: 1.25rem !important;">Thông tin nhóm</div>
+            <ul class="grid grid-cols-4 gap-5" style="gap: 1.25rem !important;">
+                <li>
+                    <img src="img/product-4.jpg" class="w-28">
+                </li>
+                <li>
+                    <img src="img/product-3.jpg" class="w-28">
+                </li>
+                <li>
+                    <img src="img/product-2.jpg" class="w-28">
+                </li>
+                <li>
+                    <img src="img/product-1.jpg" class="w-28">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="bg-indigo-700 py-1 text-white">
+      <div class="container mx-auto px-4">
+        <div class="-mx-4 flex flex-wrap justify-between">
+          <div class="px-4 w-full text-center sm:w-auto sm:text-left" style="padding-right: 1rem!important; 
+    padding-left: 1rem!important;">
+            Lập trình web 
+            <script>new Date().getFullYear() > 2023 && document.write( new Date().getFullYear())</script>
+            PTITHCM. Giảng viên: Nguyễn Trung Hiếu
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
 
 </html>

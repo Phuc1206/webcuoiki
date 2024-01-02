@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -105,6 +106,17 @@ header{
     display: flex;
     text-align: center;
 }
+footer{
+    background: #7D6A55;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    left: 0;
+    top: 100%;
+    right: 0;
+    position: absolute;
+}
 body{padding-top:20px;}
 
 
@@ -127,46 +139,15 @@ body:not(.layout-admin) .section, body:not(.layout-admin) section {
 opacity-8, .overlay-opacity-8:after {
     opacity: .8;
 }
-.overlay-dark-hover:hover:after, .overlay-dark:after {
-    background: #FFCCB3;
-}
-.overlay-dark-hover:after, .overlay-dark:after, .overlay-light-hover:after, .overlay-light:after {
-    bottom: 0;
-    content: "";
-    height: 100%;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100%;
-    z-index: 0;
-}
+
 #img-body{
 	width: 100%;
 	height: auto;
 	object-fit: contain;
 }
 
-.bg-theme-color-light {
-    background-color: rgb(128, 64, 0)!important;
-}
-.bg-cover {
-    background-position: 50%!important;
-    background-repeat: no-repeat!important;
-    background-size: cover!important;
-}
-.overlay-dark, .overlay-dark-hover, .overlay-light, .overlay-light-hover {
-    position: relative;
-}
-#overlay-default, .overlay-dark, .overlay-dark-hover:after, .overlay-default, .overlay-light, .overlay-light-hover:after {
-    transition: all .2s ease;
-}
 .section, section {
     position: relative;
     word-break: break-word;
 }
 
-.overlay-dark>*, .overlay-light>* {
-    position: relative;
-    z-index: 1;
-}

@@ -13,7 +13,7 @@
         <!-- link box icon -->
         <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-
+		
     </head>
     <body>
         <!-- Navbar -->
@@ -42,7 +42,7 @@
         
        	<div class=wrapper>
        		<div class="form-box login">
-       			<h2>Login</h2>
+       			<h2>Đăng nhập</h2>
        			<form action="checklogin.htm" method="post">
        				<div class="input-box">
        					<span class="icon bx bxs-envelope"></span>
@@ -52,25 +52,25 @@
        				<div class=input-box>
        					<span class="icon bx bxs-lock-alt"></span>
        					<input type="password" required>
-       					<label>Password</label>
+       					<label>Mật khẩu</label>
        				</div>
        				<div class="remember-forgot">
-       					<label><input type="checkbox" name="remember" value="1">Remember me</label>
-       					<a href="#">Forgot Password?</a>
+       					<label><input type="checkbox" name="remember" value="1">Lưu tài khoản</label>
+       					<a href="#">Quên mật khẩu?</a>
        				</div>
-       				<button type="submit" class="btn">Login</button>
+       				<button type="submit" class="btn">Đăng nhập</button>
        				<div class="login-register">
-       					<p>Don't have an account?<a href="#" class="register-link">Register</a>
+       					<p>Chưa có tài khoản?<a href="#" class="register-link"> Đăng ký</a>
        				</div>
        			</form>
        		</div>
        		<div class="form-box register">
-       			<h2>Registration</h2>
+       			<h2>Đăng ký</h2>
        			<form action="#">
        			<div class="input-box">
        					<span class="icon bx bxs-user"></span>
        					<input type="text" required>
-       					<label>Username</label>
+       					<label>Tài khoản</label>
        				</div>
        				<div class="input-box">
        					<span class="icon bx bxs-envelope"></span>
@@ -80,15 +80,15 @@
        				<div class=input-box>
        					<span class="icon bx bxs-lock-alt"></span>
        					<input type="password" required>
-       					<label>Password</label>
+       					<label>Mật khẩu</label>
        				</div>
        				<div class="remember-forgot">
-       					<label><input type="checkbox">I agree to the terms & conditions</label>
+       					<label><input type="checkbox">Tôi đồng ý với điều khoản và điều lệ</label>
        					
        				</div>
-       				<button type="submit" class="btn">Register</button>
+       				<button type="submit" class="btn">Đăng ký</button>
        				<div class="login-register">
-       					<p>Already have an account?<a href="#" class="login-link">Login</a>
+       					<p>Đã có tài khoản?<a href="#" class="login-link"> Đăng nhập</a>
        				</div>
        			</form>
        		</div>
