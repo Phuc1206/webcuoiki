@@ -38,4 +38,8 @@ public String pay() {
 public String order() {
 	return "order/order";
 }
+@RequestMapping("admin")
+public String admin() {
+	return "admin/admin";
+}
 }
